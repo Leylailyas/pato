@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    // background-color: red;
+    width: 100%;
+// background-color: red;
+position: absolute;
+z-index: 1;
+nav{
+    width: 90%;
+    margin: auto;
+}
+}
+header{   
+    .patoNav{
+        display: flex;
+        // margin-left: auto;
+        margin-left: 10px;
+        // background-color: yellow;
+        gap: 100px;
+                .collapseeDiv{
+                    .patologo{
+                        // background-color: red;
+                        // margin-right: 10px;
+                    }
+            .collapseDiv{
+                // background-color: purple;
+                // display: flex;
+                gap: 30px;
+                margin-left: auto;
+                align-items: center;
+                justify-content: center;
+            }
+            // display: flex;
+            // background-color: green;
+            gap: 30px;
+            width: 800px;
+
+        }
+        li{
+            a{
+                color: white;
+                display: flex;
+                gap: 40px;
+                font-size: 16px;
+                justify-content: space-between;
+                // background-color: yellow; 
+                width: 100px;       
+            }
+        }
+    }
+width: 95%;
+// background-color: yellow;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: space-between;
+}
+// @media screen and (max-width: 991px) {
+//     .socialmediaicon {
+//         display: none;
+//     }
+//   }
+.socialmediaicon{
+    display: flex;
+    gap: 20px;
+    // background-color: pink;
+    font-size: 20px;
+    color: white;
+    // background-color: yellow;
+}
+main{
+    .discover{
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/assets/img/bg-intro-01.jpg);
+        width: 100%;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h5{
+            color: rgb(171, 4, 4);
+            font-size: 30px;
+        }
+        h1{
+            color: white;
+            font-size: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+      
+        
+        // background-image: url(/assets/img/bg-intro-01.jpg);
+    }
+
+    .patoplace{
+        background-image: url(/assets/img/bg-intro-01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        .patotext{
+            h3{
+                font-size: 49px;
+                color: white;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            h1{
+                font-size: 100px;
+                color: white;
+
+            }
+            button{
+                width: 170px;
+                height: 48px;
+                border: none;
+                border-radius: 8px;
+                color:palevioletred;
+            }
+            // background-color: red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+    }
+}
+.italianresturant{
+    margin-top: 30px;
+    padding-top: 30px;
+    .container{
+        margin-left: 70px;
+        margin-right: 70px;
+        .meatimg{
+            max-width: 100%;
+            border-radius: 10px;
+
+        }
+        .resturant{
+            // background-color: rebeccapurple;
+            width: 530px;
+            margin-top: 30px;
+            padding-top: 30px;
+            h1{
+                font-size: 60px;
+            }
+            h4{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: rgb(192, 2, 2);
+                font-size: 25px;
+            }
+            p{
+                color: gray;
+            }
+        }
+    }
+}
+.addtobasketbtn{
+    border: 2px solid rgb(122, 5, 5);
+    width: 170px;
+    height: 45px;
+    border-radius: 10px;
+    color:  rgb(122, 5, 5);
+    margin-bottom: 10px;
+}
+#productsList{
+display: flex;
+overflow: hidden;
+flex-wrap: wrap;
+max-width: 100%;
+gap: 30px;
+}
+.apiimage{
+    max-width: 100%;
+    width: 300px;
+
+}
+.boxDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid rgb(196, 192, 192);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#pagi{
+    height: 39px;
+    font-size: 16px;
+  
+    border-radius: 10px;
+    border: 2px solid #717FE0;
+    color: #717FE0;
+  }
+  #pagi:hover{
+    background-color: #717FE0;
+    transition: 0.3s;
+    color: white;
+  }
+  .bookingImg{
+    max-width: 100%;
+    border-radius: 10px;
+    // width: 600px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
